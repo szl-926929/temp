@@ -19,6 +19,7 @@ func Index(c *gin.Context) {
 	fmt.Println("=========")
 	fmt.Println("=========")
 	fmt.Println("=========")
+	fmt.Println("=========")
 	fmt.Println(c.FullPath())
 	fmt.Println(c.Request.URL.Path)
 	fmt.Println(c.Request.Host)
