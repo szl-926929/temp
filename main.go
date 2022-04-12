@@ -30,6 +30,7 @@ func Index(c *gin.Context) {
 func BuildRouter() {
 	fmt.Println("=========")
 	fmt.Println("=========")
+	fmt.Println("=========")
 	router := gin.Default()
 	for i := 0; i < 5000; i++ {
 		router.GET(fmt.Sprintf("/hello%d/:name/world/:user/:id", i), nil)
